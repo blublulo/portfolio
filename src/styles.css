@@ -148,3 +148,44 @@ p {
   margin-top: 10px;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .app-description {
+    font-size: 14px;
+  }
+  .navbar {
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+  }
+  #contact-me-button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+  }
+  #about-me-button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+  }
+  #email {
+    font-size: 20px;
+  }
+  #contact-me {
+    font-size: 24px;
+  }
+}
